@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GraphViewController" customModule="Stocks" customModuleProvider="target">
+            <connections>
+                <outlet property="graphView" destination="f05-EM-E5S" id="Ohv-fD-5Uy"/>
+                <outlet property="mainStack" destination="f6X-Iq-uPN" id="gs4-Ol-T5W"/>
+                <outlet property="view" destination="ULh-QY-F5o" id="A5a-OG-PmO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" interfaceStyle="dark" id="ULh-QY-F5o">
+            <rect key="frame" x="0.0" y="0.0" width="468" height="368"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="f6X-Iq-uPN">
+                    <rect key="frame" x="0.0" y="54" width="468" height="314"/>
+                    <subviews>
+                        <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f05-EM-E5S" customClass="GraphView" customModule="Stocks" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="468" height="314"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="DoN-jI-BL8"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DoN-jI-BL8" firstAttribute="trailing" secondItem="f6X-Iq-uPN" secondAttribute="trailing" id="H25-JA-dqI"/>
+                <constraint firstAttribute="bottom" secondItem="f6X-Iq-uPN" secondAttribute="bottom" id="SU8-sz-dR5"/>
+                <constraint firstItem="f6X-Iq-uPN" firstAttribute="leading" secondItem="DoN-jI-BL8" secondAttribute="leading" id="TzZ-Uf-Ct7"/>
+                <constraint firstItem="f6X-Iq-uPN" firstAttribute="top" secondItem="DoN-jI-BL8" secondAttribute="top" constant="10" id="XBV-gH-fjY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1597.1014492753625" y="-210.26785714285714"/>
+        </view>
+    </objects>
+</document>

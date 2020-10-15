@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0551C220042B9E006A4574 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0551C120042B9E006A4574 /* SearchTableViewController.swift */; };
+		1C0551C720059426006A4574 /* SymbolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0551C520059426006A4574 /* SymbolTableViewCell.swift */; };
+		1C0551C820059426006A4574 /* SymbolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C0551C620059426006A4574 /* SymbolTableViewCell.xib */; };
+		1C07260525364D710006A636 /* ChartGraphLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C07260425364D710006A636 /* ChartGraphLayer.swift */; };
+		1C085748200D678C00F0EBB2 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C085747200D678C00F0EBB2 /* GraphViewController.swift */; };
+		1C08574A200E910F00F0EBB2 /* EditQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C085749200E910F00F0EBB2 /* EditQuotesViewController.swift */; };
+		1C114DF725377E81000E2CB3 /* ChartVolumeBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C114DF625377E81000E2CB3 /* ChartVolumeBars.swift */; };
+		1C114DFA253798E2000E2CB3 /* ChartAxisX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C114DF9253798E2000E2CB3 /* ChartAxisX.swift */; };
+		1C114DFD2537A324000E2CB3 /* ChartAxisY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C114DFC2537A324000E2CB3 /* ChartAxisY.swift */; };
+		1C2541A92054BFE700DDEBF2 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2541A82054BFE700DDEBF2 /* Structs.swift */; };
+		1C3FC7FE205B247300D2B359 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC7FD205B247300D2B359 /* Extensions.swift */; };
+		1C6EF3B02002C861005BED3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF3AF2002C861005BED3B /* AppDelegate.swift */; };
+		1C6EF3B22002C861005BED3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF3B12002C861005BED3B /* ViewController.swift */; };
+		1C6EF3B52002C861005BED3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EF3B32002C861005BED3B /* Main.storyboard */; };
+		1C6EF3B72002C861005BED3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EF3B62002C861005BED3B /* Assets.xcassets */; };
+		1C6EF3BA2002C861005BED3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6EF3B82002C861005BED3B /* LaunchScreen.storyboard */; };
+		1C6EF3DE2002CEF4005BED3B /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF3DD2002CEF4005BED3B /* QuoteTableViewCell.swift */; };
+		1C6EF3E22002D809005BED3B /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF3E12002D809005BED3B /* StatsViewController.swift */; };
+		1C6EF3E42002D828005BED3B /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF3E32002D828005BED3B /* NewsTableViewController.swift */; };
+		1C7B304D201FE4D100CB30E0 /* GraphFullscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B304C201FE4D100CB30E0 /* GraphFullscreenViewController.swift */; };
+		1C8D470D2024F1E8001740F0 /* QuoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D470C2024F1E8001740F0 /* QuoteDetailViewController.swift */; };
+		1C96F6572065B7FC00FF67C9 /* StocksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96F6562065B7FC00FF67C9 /* StocksAPI.swift */; };
+		1C96F65920662C5700FF67C9 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96F65820662C5700FF67C9 /* QuotesViewController.swift */; };
+		1C96F65B2066339900FF67C9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96F65A2066339900FF67C9 /* TableViewController.swift */; };
+		1C9E7C76252ADE850026B123 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E7C71252ADE850026B123 /* GraphView.swift */; };
+		1C9E7C77252ADE850026B123 /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E7C72252ADE850026B123 /* TimeIntervalExtension.swift */; };
+		1C9E7C78252ADE850026B123 /* GraphGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E7C73252ADE850026B123 /* GraphGestureRecognizer.swift */; };
+		1C9E7C79252ADE850026B123 /* ChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E7C74252ADE850026B123 /* ChartLayer.swift */; };
+		1CB53F46206C0C6A0070919F /* UITheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB53F45206C0C6A0070919F /* UITheme.swift */; };
+		1CC50F202538D8EA00B40C46 /* ENV.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC50F1F2538D8EA00B40C46 /* ENV.json */; };
+		1CC70DFB2528421600BEF6A1 /* StatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC70DFA2528421600BEF6A1 /* StatsViewController.xib */; };
+		1CC70E022528435600BEF6A1 /* GraphFullscreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC70E012528435600BEF6A1 /* GraphFullscreenViewController.xib */; };
+		1CC70E092528440C00BEF6A1 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC70E082528440C00BEF6A1 /* GraphViewController.xib */; };
+		1CC70E212528615B00BEF6A1 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC70E1F2528615B00BEF6A1 /* NewsTableViewCell.swift */; };
+		1CC70E222528615B00BEF6A1 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC70E202528615B00BEF6A1 /* NewsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0551C120042B9E006A4574 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		1C0551C520059426006A4574 /* SymbolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolTableViewCell.swift; sourceTree = "<group>"; };
+		1C0551C620059426006A4574 /* SymbolTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymbolTableViewCell.xib; sourceTree = "<group>"; };
+		1C07260425364D710006A636 /* ChartGraphLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartGraphLayer.swift; sourceTree = "<group>"; };
+		1C085747200D678C00F0EBB2 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		1C085749200E910F00F0EBB2 /* EditQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditQuotesViewController.swift; sourceTree = "<group>"; };
+		1C114DF625377E81000E2CB3 /* ChartVolumeBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVolumeBars.swift; sourceTree = "<group>"; };
+		1C114DF9253798E2000E2CB3 /* ChartAxisX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAxisX.swift; sourceTree = "<group>"; };
+		1C114DFC2537A324000E2CB3 /* ChartAxisY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAxisY.swift; sourceTree = "<group>"; };
+		1C2541A82054BFE700DDEBF2 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		1C3FC7FD205B247300D2B359 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1C6EF3AC2002C861005BED3B /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6EF3AF2002C861005BED3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C6EF3B12002C861005BED3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C6EF3B42002C861005BED3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C6EF3B62002C861005BED3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C6EF3B92002C861005BED3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C6EF3BB2002C861005BED3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6EF3DD2002CEF4005BED3B /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		1C6EF3E12002D809005BED3B /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		1C6EF3E32002D828005BED3B /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		1C7B304C201FE4D100CB30E0 /* GraphFullscreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphFullscreenViewController.swift; sourceTree = "<group>"; };
+		1C8D470C2024F1E8001740F0 /* QuoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailViewController.swift; sourceTree = "<group>"; };
+		1C96F6562065B7FC00FF67C9 /* StocksAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksAPI.swift; sourceTree = "<group>"; };
+		1C96F65820662C5700FF67C9 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		1C96F65A2066339900FF67C9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1C9E7C71252ADE850026B123 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		1C9E7C72252ADE850026B123 /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtension.swift; sourceTree = "<group>"; };
+		1C9E7C73252ADE850026B123 /* GraphGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphGestureRecognizer.swift; sourceTree = "<group>"; };
+		1C9E7C74252ADE850026B123 /* ChartLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLayer.swift; sourceTree = "<group>"; };
+		1CB53F45206C0C6A0070919F /* UITheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITheme.swift; sourceTree = "<group>"; };
+		1CC50F1F2538D8EA00B40C46 /* ENV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ENV.json; sourceTree = "<group>"; };
+		1CC70DFA2528421600BEF6A1 /* StatsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatsViewController.xib; sourceTree = "<group>"; };
+		1CC70E012528435600BEF6A1 /* GraphFullscreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphFullscreenViewController.xib; sourceTree = "<group>"; };
+		1CC70E082528440C00BEF6A1 /* GraphViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
+		1CC70E1F2528615B00BEF6A1 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		1CC70E202528615B00BEF6A1 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6EF3A92002C861005BED3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0551C920059523006A4574 /* SymbolResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C0551C520059426006A4574 /* SymbolTableViewCell.swift */,
+				1C0551C620059426006A4574 /* SymbolTableViewCell.xib */,
+			);
+			path = SymbolResultCell;
+			sourceTree = "<group>";
+		};
+		1C114E002537AAEA000E2CB3 /* ChartLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E7C74252ADE850026B123 /* ChartLayer.swift */,
+				1C07260425364D710006A636 /* ChartGraphLayer.swift */,
+				1C114DF625377E81000E2CB3 /* ChartVolumeBars.swift */,
+				1C114DF9253798E2000E2CB3 /* ChartAxisX.swift */,
+				1C114DFC2537A324000E2CB3 /* ChartAxisY.swift */,
+			);
+			path = ChartLayer;
+			sourceTree = "<group>";
+		};
+		1C6EF3A32002C861005BED3B = {
+			isa = PBXGroup;
+			children = (
+				1C6EF3AE2002C861005BED3B /* Stocks */,
+				1C6EF3AD2002C861005BED3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6EF3AD2002C861005BED3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EF3AC2002C861005BED3B /* Stocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C6EF3AE2002C861005BED3B /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC7FD205B247300D2B359 /* Extensions.swift */,
+				1CB53F45206C0C6A0070919F /* UITheme.swift */,
+				1C6EF3AF2002C861005BED3B /* AppDelegate.swift */,
+				1CC70E3025286A3300BEF6A1 /* Data */,
+				1C9E7C70252ADE850026B123 /* GraphView */,
+				1C6EF3B12002C861005BED3B /* ViewController.swift */,
+				1C96F65A2066339900FF67C9 /* TableViewController.swift */,
+				1C96F65820662C5700FF67C9 /* QuotesViewController.swift */,
+				1CC70E1B2528610D00BEF6A1 /* QuoteDetail */,
+				1C085749200E910F00F0EBB2 /* EditQuotesViewController.swift */,
+				1CC70E05252843F700BEF6A1 /* GraphViewController */,
+				1CC70DFE2528433500BEF6A1 /* GraphFullscreenViewController */,
+				1C0551C920059523006A4574 /* SymbolResultCell */,
+				1C0551C120042B9E006A4574 /* SearchTableViewController.swift */,
+				1C6EF3DD2002CEF4005BED3B /* QuoteTableViewCell.swift */,
+				1C6EF3B32002C861005BED3B /* Main.storyboard */,
+				1C6EF3B62002C861005BED3B /* Assets.xcassets */,
+				1C6EF3B82002C861005BED3B /* LaunchScreen.storyboard */,
+				1CC50F1F2538D8EA00B40C46 /* ENV.json */,
+				1C6EF3BB2002C861005BED3B /* Info.plist */,
+			);
+			path = Stocks;
+			sourceTree = "<group>";
+		};
+		1C9E7C70252ADE850026B123 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				1C114E002537AAEA000E2CB3 /* ChartLayer */,
+				1C9E7C71252ADE850026B123 /* GraphView.swift */,
+				1C9E7C72252ADE850026B123 /* TimeIntervalExtension.swift */,
+				1C9E7C73252ADE850026B123 /* GraphGestureRecognizer.swift */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		1CC70DF7252841FB00BEF6A1 /* StatsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EF3E12002D809005BED3B /* StatsViewController.swift */,
+				1CC70DFA2528421600BEF6A1 /* StatsViewController.xib */,
+			);
+			path = StatsViewController;
+			sourceTree = "<group>";
+		};
+		1CC70DFE2528433500BEF6A1 /* GraphFullscreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C7B304C201FE4D100CB30E0 /* GraphFullscreenViewController.swift */,
+				1CC70E012528435600BEF6A1 /* GraphFullscreenViewController.xib */,
+			);
+			path = GraphFullscreenViewController;
+			sourceTree = "<group>";
+		};
+		1CC70E05252843F700BEF6A1 /* GraphViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C085747200D678C00F0EBB2 /* GraphViewController.swift */,
+				1CC70E082528440C00BEF6A1 /* GraphViewController.xib */,
+			);
+			path = GraphViewController;
+			sourceTree = "<group>";
+		};
+		1CC70E1225284B9400BEF6A1 /* NewsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EF3E32002D828005BED3B /* NewsTableViewController.swift */,
+				1CC70E262528616000BEF6A1 /* NewsTableViewCell */,
+			);
+			path = NewsTableViewController;
+			sourceTree = "<group>";
+		};
+		1CC70E1B2528610D00BEF6A1 /* QuoteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1C8D470C2024F1E8001740F0 /* QuoteDetailViewController.swift */,
+				1CC70DF7252841FB00BEF6A1 /* StatsViewController */,
+				1CC70E1225284B9400BEF6A1 /* NewsTableViewController */,
+			);
+			path = QuoteDetail;
+			sourceTree = "<group>";
+		};
+		1CC70E262528616000BEF6A1 /* NewsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1CC70E1F2528615B00BEF6A1 /* NewsTableViewCell.swift */,
+				1CC70E202528615B00BEF6A1 /* NewsTableViewCell.xib */,
+			);
+			path = NewsTableViewCell;
+			sourceTree = "<group>";
+		};
+		1CC70E3025286A3300BEF6A1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1C96F6562065B7FC00FF67C9 /* StocksAPI.swift */,
+				1C2541A82054BFE700DDEBF2 /* Structs.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6EF3AB2002C861005BED3B /* Stocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6EF3D42002C861005BED3B /* Build configuration list for PBXNativeTarget "Stocks" */;
+			buildPhases = (
+				1C6EF3A82002C861005BED3B /* Sources */,
+				1C6EF3A92002C861005BED3B /* Frameworks */,
+				1C6EF3AA2002C861005BED3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stocks;
+			productName = Stocks;
+			productReference = 1C6EF3AC2002C861005BED3B /* Stocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6EF3A42002C861005BED3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Eli Slade";
+				TargetAttributes = {
+					1C6EF3AB2002C861005BED3B = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C6EF3A72002C861005BED3B /* Build configuration list for PBXProject "Stocks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C6EF3A32002C861005BED3B;
+			productRefGroup = 1C6EF3AD2002C861005BED3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6EF3AB2002C861005BED3B /* Stocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C6EF3AA2002C861005BED3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC50F202538D8EA00B40C46 /* ENV.json in Resources */,
+				1CC70E092528440C00BEF6A1 /* GraphViewController.xib in Resources */,
+				1C6EF3BA2002C861005BED3B /* LaunchScreen.storyboard in Resources */,
+				1C6EF3B72002C861005BED3B /* Assets.xcassets in Resources */,
+				1CC70E222528615B00BEF6A1 /* NewsTableViewCell.xib in Resources */,
+				1CC70E022528435600BEF6A1 /* GraphFullscreenViewController.xib in Resources */,
+				1CC70DFB2528421600BEF6A1 /* StatsViewController.xib in Resources */,
+				1C0551C820059426006A4574 /* SymbolTableViewCell.xib in Resources */,
+				1C6EF3B52002C861005BED3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6EF3A82002C861005BED3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8D470D2024F1E8001740F0 /* QuoteDetailViewController.swift in Sources */,
+				1C6EF3B22002C861005BED3B /* ViewController.swift in Sources */,
+				1C114DF725377E81000E2CB3 /* ChartVolumeBars.swift in Sources */,
+				1C9E7C79252ADE850026B123 /* ChartLayer.swift in Sources */,
+				1C9E7C76252ADE850026B123 /* GraphView.swift in Sources */,
+				1CC70E212528615B00BEF6A1 /* NewsTableViewCell.swift in Sources */,
+				1C085748200D678C00F0EBB2 /* GraphViewController.swift in Sources */,
+				1C0551C220042B9E006A4574 /* SearchTableViewController.swift in Sources */,
+				1C0551C720059426006A4574 /* SymbolTableViewCell.swift in Sources */,
+				1CB53F46206C0C6A0070919F /* UITheme.swift in Sources */,
+				1C6EF3DE2002CEF4005BED3B /* QuoteTableViewCell.swift in Sources */,
+				1C96F65B2066339900FF67C9 /* TableViewController.swift in Sources */,
+				1C6EF3B02002C861005BED3B /* AppDelegate.swift in Sources */,
+				1C96F6572065B7FC00FF67C9 /* StocksAPI.swift in Sources */,
+				1C6EF3E42002D828005BED3B /* NewsTableViewController.swift in Sources */,
+				1C114DFA253798E2000E2CB3 /* ChartAxisX.swift in Sources */,
+				1C07260525364D710006A636 /* ChartGraphLayer.swift in Sources */,
+				1C96F65920662C5700FF67C9 /* QuotesViewController.swift in Sources */,
+				1C6EF3E22002D809005BED3B /* StatsViewController.swift in Sources */,
+				1C9E7C78252ADE850026B123 /* GraphGestureRecognizer.swift in Sources */,
+				1C7B304D201FE4D100CB30E0 /* GraphFullscreenViewController.swift in Sources */,
+				1C3FC7FE205B247300D2B359 /* Extensions.swift in Sources */,
+				1C2541A92054BFE700DDEBF2 /* Structs.swift in Sources */,
+				1C114DFD2537A324000E2CB3 /* ChartAxisY.swift in Sources */,
+				1C08574A200E910F00F0EBB2 /* EditQuotesViewController.swift in Sources */,
+				1C9E7C77252ADE850026B123 /* TimeIntervalExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C6EF3B32002C861005BED3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6EF3B42002C861005BED3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C6EF3B82002C861005BED3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6EF3B92002C861005BED3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C6EF3D22002C861005BED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C6EF3D32002C861005BED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C6EF3D52002C861005BED3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2V9KYH4KN;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				INFOPLIST_FILE = Stocks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elislade.Stocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C6EF3D62002C861005BED3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2V9KYH4KN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Stocks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elislade.Stocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6EF3A72002C861005BED3B /* Build configuration list for PBXProject "Stocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6EF3D22002C861005BED3B /* Debug */,
+				1C6EF3D32002C861005BED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6EF3D42002C861005BED3B /* Build configuration list for PBXNativeTarget "Stocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6EF3D52002C861005BED3B /* Debug */,
+				1C6EF3D62002C861005BED3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6EF3A42002C861005BED3B /* Project object */;
+}
